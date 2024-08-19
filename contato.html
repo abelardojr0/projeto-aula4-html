@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Portfólio Simples</title>
+  <!-- ADICIONAR FONTE DO GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Link para o CSS -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Cabeçalho Principal -->
+  <header class="header">
+    <img class="profile-img-small" src="perfil.jpg" alt="Foto de Abelardo Júnior" width="50" height="50">
+    <h1 class="header-title">Abelardo Júnior</h1>
+    <p class="header-subtitle"><b>Desenvolvedor FullStack</b></p>
+    <!-- Navegação -->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Formulário de Contato -->
+  <main class="main-content">
+    <section class="section-contact">
+      <h2 class="section-title">Contato</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <label class="form-label" for="nome">Nome:</label>
+          <input class="form-input" type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email:</label>
+          <input class="form-input" type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="mensagem">Mensagem:</label>
+          <textarea class="form-textarea" id="mensagem" name="mensagem" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+          <p class="form-question">Você gostaria de receber atualizações?</p>
+          <input class="form-checkbox" type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+          <label class="form-label" for="newsletter">Sim, me inscreva na newsletter</label>
+        </div>
+        <div class="form-group">
+          <p class="form-question">Qual é o seu nível de interesse?</p>
+          <input class="form-radio" type="radio" id="alto" name="interesse" value="alto">
+          <label class="form-label" for="alto">Alto</label>
+          <input class="form-radio" type="radio" id="medio" name="interesse" value="medio">
+          <label class="form-label" for="medio">Médio</label>
+          <input class="form-radio" type="radio" id="baixo" name="interesse" value="baixo">
+          <label class="form-label" for="baixo">Baixo</label>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="assunto">Assunto:</label>
+          <select class="form-select" id="assunto" name="assunto">
+            <option value="geral">Geral</option>
+            <option value="contratar">Contratar</option>
+            <option value="duvidas">Dúvidas</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </div>
+        <div class="form-buttons">
+          <button class="form-button" type="submit">Enviar</button>
+          <button class="form-button" type="reset">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p class="footer-text">Você pode me encontrar nas redes sociais:</p>
+    <ul class="social-list">
+      <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/abelardo-junior/" target="_blank">LinkedIn</a></li>
+      <li class="social-item"><a class="social-link" href="https://github.com/abelardojr0" target="_blank">GitHub</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+/* Cabeçalho Principal */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.header-title {
+  font-size: 2em;
+  margin: 0;
+  font-family: "New Amsterdam", sans-serif;
+}
+
+.header-subtitle {
+  font-size: 1.2em;
+  margin: 10px 0;
+  font-family: "New Amsterdam", sans-serif;
+}
+
+.profile-img,
+.profile-img-small {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+}
+
+.profile-img-small {
+  width: 50px;
+  height: 50px;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+.main-content {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "New Amsterdam", sans-serif;
+}
+
+.section-text {
+  line-height: 1.6;
+}
+
+.section-divider {
+  margin: 20px 0;
+}
+
+/* Formação Acadêmica */
+.education-list,
+.experience-list {
+  list-style: none;
+  padding: 0;
+}
+
+.education-item,
+.experience-item {
+  margin-bottom: 15px;
+}
+
+.education-degree,
+.experience-company {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.education-info,
+.education-period,
+.experience-role,
+.experience-period {
+  margin: 5px 0;
+}
+
+/* Formulário de Contato */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  margin-bottom: 10px;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.form-checkbox,
+.form-radio {
+  margin-right: 10px;
+}
+
+.form-buttons {
+  text-align: center;
+}
+
+.form-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Rodapé */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.social-item {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
